@@ -3,7 +3,7 @@
   left: 5;
   padding: 1rem;
   color: #c44900;
-  z-index: 10;
+  z-index: 15;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -20,6 +20,7 @@
   left: 0;
   top: 0;
   height: 100vh;
+  z-index: 10;
 
   & .logo-section {
     padding: 1em;

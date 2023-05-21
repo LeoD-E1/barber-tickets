@@ -11,19 +11,19 @@ interface Slide {
 const slides: Slide[] = [
   {
     id: 0,
-    img: 'https://wallpaperaccess.com/full/2390661.jpg',
+    img: 'https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title:" The Hero In The Mountains",
     description: 'Lorem Ipsum is Lorem Ipsum Lorem'
   },
   {
     id: 1,
-    img: 'https://free4kwallpapers.com/uploads/originals/2020/12/18/autumn-dreams-wallpaper.jpg',
+    img: 'https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg',
     title:" The ideas Tree",
     description: 'Lorem Ipsum is Lorem Ipsum Lorem'
   },
   {
     id: 2,
-    img: 'https://images3.alphacoders.com/555/thumb-1920-555277.jpg',
+    img: 'https://images.pexels.com/photos/897271/pexels-photo-897271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
     title:" Jupiter in One plane",
     description: 'Lorem Ipsum is Lorem Ipsum Lorem'
   }
