@@ -1,0 +1,46 @@
+.icon-section {
+  position: absolute;
+  left: 5;
+  padding: 1rem;
+  color: #c44900;
+  z-index: 10;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.icon-section:hover {
+  filter: drop-shadow(0 0 2em #c44900);
+}
+
+.aside-nav {
+  width: 400px;
+  padding: 1em;
+  background-color: #183a37;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+
+  & .logo-section {
+    padding: 1em;
+    margin-top: 3em;
+  }
+
+  & .navigation {
+
+    > ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      >li {
+        padding: 0.5em;
+        font-size: 24px ;
+      }
+
+      >li:hover{
+        background-color: #c44900;
+      }
+    }
+  }
+}
