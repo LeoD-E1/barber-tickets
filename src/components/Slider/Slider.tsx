@@ -8,6 +8,11 @@ interface Slide {
   description: string;
 }
 
+interface Slider {
+  height?: string
+  width?: string
+}
+
 const slides: Slide[] = [
   {
     id: 0,
@@ -29,7 +34,7 @@ const slides: Slide[] = [
   }
 ]
 
-const Slider = () => {
+const Slider: React.FC<Slider> = ({ height, width }) => {
 
   const [slideRender, setSlideRender] = useState(0)
  
@@ -45,7 +50,7 @@ const Slider = () => {
   return (
     <section className="slider">
      
-      <div className='slide'>
+      <div className='slide' style={{ height, width }}>
         <img src={slide.img} alt={slide.title} />
         <div>
         <article className='info'>

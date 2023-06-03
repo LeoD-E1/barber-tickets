@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import ToggleButton from './components/ToggleButton/ToggleButton'
 import Slider from './components/Slider/Slider'
+import MasonryGallery from './components/MasonryGallery/MasonryGallery'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
   return (
     <>
       <ToggleButton status={open} changeStatus={changeValueStatus}/>
-      <Slider />
+      <Slider height='50vh' />
+      <MasonryGallery />
     </> 
   )
 }
